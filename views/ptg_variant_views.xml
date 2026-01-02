@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_form_ptg_variant" model="ir.ui.view">
+            <field name="name">ptg.variant.form</field>
+            <field name="model">ptg.variant</field>
+            <field name="arch" type="xml">
+                <form string="PTG Variant">
+                    <sheet>
+                        <group>
+                            <field name="name" />
+                            <field name="value" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="view_tree_ptg_variant" model="ir.ui.view">
+            <field name="name">ptg.variant.tree</field>
+            <field name="model">ptg.variant</field>
+            <field name="arch" type="xml">
+                <tree string="PTG Variant">
+                    <field name="name" />
+                    <field name="value" />
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

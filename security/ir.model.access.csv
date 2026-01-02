@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ptg_fruit,access.ptg.fruit,model_ptg_fruit,,1,1,1,1
+access_ptg_fruit_value,access.ptg.fruit.value,model_ptg_fruit_value,,1,1,1,1
+access_ptg_variant,access.ptg.variant,model_ptg_variant,,1,1,1,1

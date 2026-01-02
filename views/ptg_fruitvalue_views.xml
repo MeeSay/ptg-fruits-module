@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_form_ptg_fruit_value" model="ir.ui.view">
+            <field name="name">ptg.fruit.value.form</field>
+            <field name="model">ptg.fruit.value</field>
+            <field name="arch" type="xml">
+                <form string="PTG Fruit Value">
+                    <sheet>
+                        <group>
+                            <field name="fruit_name" />
+                            <field name="weight" />
+                            <field name="value" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="view_tree_ptg_fruit_value" model="ir.ui.view">
+            <field name="name">ptg.fruit.value.tree</field>
+            <field name="model">ptg.fruit.value</field>
+            <field name="arch" type="xml">
+                <tree string="PTG Fruit Value">
+                    <field name="fruit_name" />
+                    <field name="weight" />
+                    <field name="value" />
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

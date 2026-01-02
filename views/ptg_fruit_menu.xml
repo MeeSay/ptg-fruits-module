@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Root menu -->
+        <menuitem id="menu_ptg_fruit_root" name="PTGFruit" sequence="10" />
+
+        <!-- Fruits -->
+        <record id="action_ptg_fruit" model="ir.actions.act_window">
+            <field name="name">Fruits</field>
+            <field name="res_model">ptg.fruit</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_ptg_fruit"
+            name="Fruits"
+            parent="menu_ptg_fruit_root"
+            action="action_ptg_fruit"
+            sequence="20" />
+
+        <!-- Fruit Values -->
+        <record id="action_ptg_fruit_value" model="ir.actions.act_window">
+            <field name="name">Fruit Values</field>
+            <field name="res_model">ptg.fruit.value</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_ptg_fruit_value"
+            name="Fruit Values"
+            parent="menu_ptg_fruit_root"
+            action="action_ptg_fruit_value"
+            sequence="30" />
+
+        <!-- Variants -->
+        <record id="action_ptg_variant" model="ir.actions.act_window">
+            <field name="name">Variants</field>
+            <field name="res_model">ptg.variant</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_ptg_variant"
+            name="Variants"
+            parent="menu_ptg_fruit_root"
+            action="action_ptg_variant"
+            sequence="40" />
+
+    </data>
+</odoo>
