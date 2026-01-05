@@ -5,5 +5,5 @@ class PtgFruit(models.Model):
     _description = 'PTG Fruit'
 
     name = fields.Char(string='Fruit Name', required=True)
-    avarage = fields.Float(string='Average')
+    average = fields.Float(string='Average')
     imgs = fields.Binary(string='Fruit Image')

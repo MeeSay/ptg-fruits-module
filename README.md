@@ -1,3 +1,9 @@
-﻿# ptg-fruits-module
+﻿# PTG Fruits Module
 
-- use odoo 16
+Odoo 16 module for managing fruits and variants.
+
+## Features
+
+- Fruit management
+- Variant management
+- Fruit value tracking
