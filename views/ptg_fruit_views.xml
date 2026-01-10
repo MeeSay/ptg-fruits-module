@@ -9,6 +9,8 @@
                     <sheet>
                         <group>
                             <field name="name" />
+                            <field name="average" />
+                            <field name="imgs" />
                         </group>
                     </sheet>
                 </form>
@@ -20,6 +22,8 @@
             <field name="arch" type="xml">
                 <tree string="PTG Fruit">
                     <field name="name" />
+                    <field name="average" />
+                    <field name="imgs" />
                 </tree>
             </field>
         </record>

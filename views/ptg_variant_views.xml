@@ -10,6 +10,8 @@
                         <group>
                             <field name="name" />
                             <field name="value" />
+                            <field name="text_color" />
+                            <field name="background_color" />
                         </group>
                     </sheet>
                 </form>
@@ -22,6 +24,8 @@
                 <tree string="PTG Variant">
                     <field name="name" />
                     <field name="value" />
+                    <field name="text_color" />
+                    <field name="background_color" />
                 </tree>
             </field>
         </record>
